@@ -13,7 +13,7 @@ export class RegisterService {
     profession: ''
   };
   users: Register[] = [];
-  URL_API = 'http://localhost:3000/api/users';
+  URL_API = 'https://formusers.herokuapp.com/api/users/';
 
 
   constructor(private http: HttpClient) { }
